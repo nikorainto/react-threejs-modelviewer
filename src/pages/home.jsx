@@ -11,10 +11,10 @@ function Home() {
           Room
         </li>
         <li className="demo-item" onClick={() => history.push('/helmet')}>
-          Helmet
+          Helmet (Takes long to load)
         </li>
         <li className="demo-item" onClick={() => history.push('/shoe')}>
-          Shoe
+          Shoe (Takes super long to load)
         </li>
       </ul>
     </div>
